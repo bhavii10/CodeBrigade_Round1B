@@ -1,0 +1,814 @@
+{
+    "metadata": {
+        "input_documents": [
+            "Breakfast Ideas.pdf",
+            "Dinner Ideas - Mains_1.pdf",
+            "Dinner Ideas - Mains_2.pdf",
+            "Dinner Ideas - Mains_3.pdf",
+            "Dinner Ideas - Sides_1.pdf",
+            "Dinner Ideas - Sides_2.pdf",
+            "Dinner Ideas - Sides_3.pdf",
+            "Dinner Ideas - Sides_4.pdf",
+            "Lunch Ideas.pdf"
+        ],
+        "persona": "Food Contractor",
+        "job_to_be_done": "Prepare a vegetarian buffet-style dinner menu for a corporate gathering, including gluten-free items.",
+        "processing_timestamp": "2025-07-25T17:09:42.522017"
+    },
+    "extracted_sections": [
+        {
+            "document": "Breakfast Ideas.pdf",
+            "section_title": "In a bowl, whisk together flour, sugar, baking powder, baking soda, and salt.",
+            "importance_rank": 1,
+            "page_number": 2
+        },
+        {
+            "document": "Breakfast Ideas.pdf",
+            "section_title": "In a shallow dish, whisk together eggs, milk, vanilla extract, and cinnamon.",
+            "importance_rank": 2,
+            "page_number": 3
+        },
+        {
+            "document": "Breakfast Ideas.pdf",
+            "section_title": "In a blender, combine banana, Greek yogurt, almond milk, protein powder, and",
+            "importance_rank": 3,
+            "page_number": 13
+        },
+        {
+            "document": "Dinner Ideas - Mains_1.pdf",
+            "section_title": "1 pound beef sirloin, thinly sliced",
+            "importance_rank": 1,
+            "page_number": 2
+        },
+        {
+            "document": "Dinner Ideas - Mains_1.pdf",
+            "section_title": "1 pound boneless, skinless chicken thighs, cubed",
+            "importance_rank": 2,
+            "page_number": 11
+        },
+        {
+            "document": "Dinner Ideas - Mains_1.pdf",
+            "section_title": "1/2 pound shrimp or chicken",
+            "importance_rank": 3,
+            "page_number": 7
+        },
+        {
+            "document": "Dinner Ideas - Mains_2.pdf",
+            "section_title": "Salt and pepper to taste",
+            "importance_rank": 1,
+            "page_number": 1
+        },
+        {
+            "document": "Dinner Ideas - Mains_2.pdf",
+            "section_title": "Salt and pepper to taste",
+            "importance_rank": 2,
+            "page_number": 3
+        },
+        {
+            "document": "Dinner Ideas - Mains_2.pdf",
+            "section_title": "Salt and pepper to taste",
+            "importance_rank": 3,
+            "page_number": 4
+        },
+        {
+            "document": "Dinner Ideas - Mains_3.pdf",
+            "section_title": "Return chicken to the skillet and cook until heated through.",
+            "importance_rank": 1,
+            "page_number": 1
+        },
+        {
+            "document": "Dinner Ideas - Mains_3.pdf",
+            "section_title": "In a large pot, heat olive oil over medium heat.",
+            "importance_rank": 2,
+            "page_number": 7
+        },
+        {
+            "document": "Dinner Ideas - Mains_3.pdf",
+            "section_title": "Cook gnocchi according to package instructions, then drain.",
+            "importance_rank": 3,
+            "page_number": 6
+        },
+        {
+            "document": "Dinner Ideas - Sides_1.pdf",
+            "section_title": "o 2 cups black-eyed peas",
+            "importance_rank": 1,
+            "page_number": 2
+        },
+        {
+            "document": "Dinner Ideas - Sides_1.pdf",
+            "section_title": "o 2 tablespoons soy sauce",
+            "importance_rank": 2,
+            "page_number": 8
+        },
+        {
+            "document": "Dinner Ideas - Sides_1.pdf",
+            "section_title": "o 1 tablespoon rice wine",
+            "importance_rank": 3,
+            "page_number": 15
+        },
+        {
+            "document": "Dinner Ideas - Sides_2.pdf",
+            "section_title": "o Bring water and butter to a boil.",
+            "importance_rank": 1,
+            "page_number": 1
+        },
+        {
+            "document": "Dinner Ideas - Sides_2.pdf",
+            "section_title": "o Mix flour, butter, water, and beaten egg to form a dough, then let rest.",
+            "importance_rank": 2,
+            "page_number": 7
+        },
+        {
+            "document": "Dinner Ideas - Sides_2.pdf",
+            "section_title": "o Drain on paper towels and serve.",
+            "importance_rank": 3,
+            "page_number": 8
+        },
+        {
+            "document": "Dinner Ideas - Sides_3.pdf",
+            "section_title": "o 4 cups vegetable broth",
+            "importance_rank": 1,
+            "page_number": 1
+        },
+        {
+            "document": "Dinner Ideas - Sides_3.pdf",
+            "section_title": "o 1/4 cup olive oil",
+            "importance_rank": 2,
+            "page_number": 3
+        },
+        {
+            "document": "Dinner Ideas - Sides_3.pdf",
+            "section_title": "o 1/4 cup olive oil",
+            "importance_rank": 3,
+            "page_number": 12
+        },
+        {
+            "document": "Dinner Ideas - Sides_4.pdf",
+            "section_title": "o Scramble eggs in the same pan.",
+            "importance_rank": 1,
+            "page_number": 1
+        },
+        {
+            "document": "Dinner Ideas - Sides_4.pdf",
+            "section_title": "o Serve as a dip or side dish.",
+            "importance_rank": 2,
+            "page_number": 15
+        },
+        {
+            "document": "Dinner Ideas - Sides_4.pdf",
+            "section_title": "o Cut paneer into cubes.",
+            "importance_rank": 3,
+            "page_number": 2
+        },
+        {
+            "document": "Lunch Ideas.pdf",
+            "section_title": "1 cup cooked chicken breast, sliced",
+            "importance_rank": 1,
+            "page_number": 2
+        },
+        {
+            "document": "Lunch Ideas.pdf",
+            "section_title": "1 cup cooked chicken breast, sliced",
+            "importance_rank": 2,
+            "page_number": 7
+        },
+        {
+            "document": "Lunch Ideas.pdf",
+            "section_title": "1 cup cooked chicken breast, sliced",
+            "importance_rank": 3,
+            "page_number": 15
+        }
+    ],
+    "subsection_analysis": [
+        {
+            "document": "Breakfast Ideas.pdf",
+            "refined_text": "Pancakes Ingredients: \u2022 1 cup all-purpose flour \u2022",
+            "page_number": 2
+        },
+        {
+            "document": "Breakfast Ideas.pdf",
+            "refined_text": "\u2022 1/2 teaspoon ground cinnamon \u2022 1 tablespoon butter Instructions:",
+            "page_number": 3
+        },
+        {
+            "document": "Breakfast Ideas.pdf",
+            "refined_text": "\u2022 1/4 cup cooked sausage or bacon \u2022 1/4 cup diced bell pepper \u2022",
+            "page_number": 4
+        },
+        {
+            "document": "Breakfast Ideas.pdf",
+            "refined_text": "Breakfast Sandwich Ingredients: \u2022 1 English mu\ufb03n, split and toasted \u2022",
+            "page_number": 5
+        },
+        {
+            "document": "Breakfast Ideas.pdf",
+            "refined_text": "\u2022 Cook in the skillet until the tortilla is golden brown and crispy. \u2022 Serve with salsa. Banana Bread",
+            "page_number": 6
+        },
+        {
+            "document": "Breakfast Ideas.pdf",
+            "refined_text": "Granola Bars Ingredients: \u2022 2 cups rolled oats \u2022",
+            "page_number": 7
+        },
+        {
+            "document": "Breakfast Ideas.pdf",
+            "refined_text": "Instructions: \u2022 Preheat oven to 425\u00b0F (220\u00b0C). \u2022 Spread marinara sauce over the pizza crust.",
+            "page_number": 8
+        },
+        {
+            "document": "Breakfast Ideas.pdf",
+            "refined_text": "\u2022 Salt and pepper to taste Instructions: \u2022 Preheat oven to 350\u00b0F (175\u00b0C).",
+            "page_number": 9
+        },
+        {
+            "document": "Breakfast Ideas.pdf",
+            "refined_text": "\u2022 Serve immediately. Breakfast Bowl Ingredients: \u2022",
+            "page_number": 10
+        },
+        {
+            "document": "Breakfast Ideas.pdf",
+            "refined_text": "\u2022 1/4 cup diced onion \u2022 1/4 cup cooked sausage or bacon \u2022",
+            "page_number": 11
+        },
+        {
+            "document": "Breakfast Ideas.pdf",
+            "refined_text": "\u2022 In the morning, stir again and add your favorite toppings. Egg Mu\ufb03ns Ingredients: \u2022",
+            "page_number": 12
+        },
+        {
+            "document": "Breakfast Ideas.pdf",
+            "refined_text": "\u2022 In a blender, combine banana, Greek yogurt, almond milk, protein powder, and peanut butter. \u2022 Blend until smooth.",
+            "page_number": 13
+        },
+        {
+            "document": "Breakfast Ideas.pdf",
+            "refined_text": "\u2022 Top with banana slices and sprinkle with chia seeds. \u2022 Serve immediately. Greek Yogurt with Honey and Nuts",
+            "page_number": 14
+        },
+        {
+            "document": "Breakfast Ideas.pdf",
+            "refined_text": "\u2022 Serve immediately. Berry and Spinach Smoothie Ingredients: \u2022",
+            "page_number": 15
+        },
+        {
+            "document": "Breakfast Ideas.pdf",
+            "refined_text": "\u2022 Serve immediately. Cottage Cheese and Veggie Bowl Ingredients: \u2022",
+            "page_number": 16
+        },
+        {
+            "document": "Dinner Ideas - Mains_1.pdf",
+            "refined_text": "Beef Stroganoff Ingredients: \uf0b7 1 pound beef sirloin, thinly sliced \uf0b7",
+            "page_number": 2
+        },
+        {
+            "document": "Dinner Ideas - Mains_1.pdf",
+            "refined_text": "\uf0b7 Place chicken in a baking dish, top with marinara sauce and shredded mozzarella cheese. \uf0b7 Bake for 20-25 minutes until cheese is melted and bubbly. \uf0b7",
+            "page_number": 3
+        },
+        {
+            "document": "Dinner Ideas - Mains_1.pdf",
+            "refined_text": "\uf0b7 Sliced green onions for garnish Instructions: \uf0b7 In a bowl, mix soy sauce, mirin, sugar, sake, grated ginger, and minced garlic.",
+            "page_number": 4
+        },
+        {
+            "document": "Dinner Ideas - Mains_1.pdf",
+            "refined_text": "\uf0b7 Shredded lettuce, diced tomatoes, shredded cheese, sour cream, and salsa for toppings Instructions: \uf0b7 In a skillet, cook ground beef over medium heat until browned.",
+            "page_number": 5
+        },
+        {
+            "document": "Dinner Ideas - Mains_1.pdf",
+            "refined_text": "\uf0b7 2 cloves garlic, minced \uf0b7 Salt and pepper to taste \uf0b7",
+            "page_number": 6
+        },
+        {
+            "document": "Dinner Ideas - Mains_1.pdf",
+            "refined_text": "\uf0b7 8 ounces rice noodles \uf0b7 1/2 pound shrimp or chicken \uf0b7",
+            "page_number": 7
+        },
+        {
+            "document": "Dinner Ideas - Mains_1.pdf",
+            "refined_text": "\uf0b7 Bring to a simmer, then cover and transfer to the oven. \uf0b7 Cook for 2 hours, adding mushrooms, carrots, and pearl onions in the last 30 minutes. \uf0b7",
+            "page_number": 8
+        },
+        {
+            "document": "Dinner Ideas - Mains_1.pdf",
+            "refined_text": "Instructions: \uf0b7 Season chicken breasts with salt and pepper, then dredge in flour. \uf0b7 In a large skillet, heat olive oil and butter over medium heat.",
+            "page_number": 9
+        },
+        {
+            "document": "Dinner Ideas - Mains_1.pdf",
+            "refined_text": "\uf0b7 2 large eggplants, sliced \uf0b7 1 cup breadcrumbs \uf0b7",
+            "page_number": 10
+        },
+        {
+            "document": "Dinner Ideas - Mains_1.pdf",
+            "refined_text": "General Tso's Chicken Ingredients: \uf0b7 1 pound boneless, skinless chicken thighs, cubed \uf0b7",
+            "page_number": 11
+        },
+        {
+            "document": "Dinner Ideas - Mains_1.pdf",
+            "refined_text": "\uf0b7 In the same skillet, cook ground lamb or beef, diced onion, and minced garlic until browned. \uf0b7 Stir in diced tomatoes, red wine, cinnamon, oregano, salt, and pepper.",
+            "page_number": 12
+        },
+        {
+            "document": "Dinner Ideas - Mains_1.pdf",
+            "refined_text": "\uf0b7 1 tablespoon grated ginger \uf0b7 1 can (14.5 ounces) diced tomatoes \uf0b7",
+            "page_number": 13
+        },
+        {
+            "document": "Dinner Ideas - Mains_1.pdf",
+            "refined_text": "\uf0b7 1 pound ground beef \uf0b7 1/2 pound ground pork \uf0b7",
+            "page_number": 14
+        },
+        {
+            "document": "Dinner Ideas - Mains_1.pdf",
+            "refined_text": "\uf0b7 Add shrimp, mussels, and cooked chicken, simmer for an additional 10 minutes until seafood is cooked and rice is tender. \uf0b7 Garnish with lemon wedges and serve.",
+            "page_number": 15
+        },
+        {
+            "document": "Dinner Ideas - Mains_2.pdf",
+            "refined_text": "\uf0b7 1 teaspoon thyme \uf0b7 1 teaspoon rosemary \uf0b7",
+            "page_number": 1
+        },
+        {
+            "document": "Dinner Ideas - Mains_2.pdf",
+            "refined_text": "\uf0b7 1/4 cup bacon, chopped \uf0b7 1/4 cup green onions, sliced \uf0b7",
+            "page_number": 2
+        },
+        {
+            "document": "Dinner Ideas - Mains_2.pdf",
+            "refined_text": "\uf0b7 1 cup shredded cheese \uf0b7 1 teaspoon oregano \uf0b7",
+            "page_number": 3
+        },
+        {
+            "document": "Dinner Ideas - Mains_2.pdf",
+            "refined_text": "\uf0b7 1/4 teaspoon cayenne pepper \uf0b7 Salt and pepper to taste Instructions:",
+            "page_number": 4
+        },
+        {
+            "document": "Dinner Ideas - Mains_2.pdf",
+            "refined_text": "\uf0b7 1/4 cup grated Parmesan cheese \uf0b7 1 teaspoon oregano \uf0b7",
+            "page_number": 5
+        },
+        {
+            "document": "Dinner Ideas - Mains_2.pdf",
+            "refined_text": "\uf0b7 1 small onion, sliced \uf0b7 2 cloves garlic, minced \uf0b7",
+            "page_number": 6
+        },
+        {
+            "document": "Dinner Ideas - Mains_2.pdf",
+            "refined_text": "\uf0b7 1/2 cup basil pesto \uf0b7 1/4 cup cherry tomatoes, halved \uf0b7",
+            "page_number": 7
+        },
+        {
+            "document": "Dinner Ideas - Mains_2.pdf",
+            "refined_text": "\uf0b7 2 tablespoons vegetable oil \uf0b7 Tortillas for serving \uf0b7",
+            "page_number": 8
+        },
+        {
+            "document": "Dinner Ideas - Mains_2.pdf",
+            "refined_text": "\uf0b7 1 teaspoon thyme \uf0b7 1 teaspoon rosemary \uf0b7",
+            "page_number": 9
+        },
+        {
+            "document": "Dinner Ideas - Mains_2.pdf",
+            "refined_text": "Ingredients: \uf0b7 4 chicken thighs \uf0b7 1 small onion, diced",
+            "page_number": 10
+        },
+        {
+            "document": "Dinner Ideas - Mains_2.pdf",
+            "refined_text": "\uf0b7 In a bowl, mix crab meat, diced onion, breadcrumbs, mayonnaise, beaten egg, Dijon mustard, Worcestershire sauce, and Old Bay seasoning. \uf0b7 Form mixture into patties.",
+            "page_number": 11
+        },
+        {
+            "document": "Dinner Ideas - Mains_2.pdf",
+            "refined_text": "\uf0b7 Cook fettuccine according to package instructions. \uf0b7 In a skillet, melt butter over medium heat. \uf0b7",
+            "page_number": 12
+        },
+        {
+            "document": "Dinner Ideas - Mains_2.pdf",
+            "refined_text": "\uf0b7 Cook sandwiches in the skillet until golden brown and cheese is melted. \uf0b7 Serve warm. Grilled Salmon",
+            "page_number": 13
+        },
+        {
+            "document": "Dinner Ideas - Mains_2.pdf",
+            "refined_text": "\uf0b7 4 lamb chops \uf0b7 1/4 cup olive oil \uf0b7",
+            "page_number": 14
+        },
+        {
+            "document": "Dinner Ideas - Mains_2.pdf",
+            "refined_text": "\uf0b7 2 cups beef broth \uf0b7 1 can (14.5 ounces) diced tomatoes \uf0b7",
+            "page_number": 15
+        },
+        {
+            "document": "Dinner Ideas - Mains_3.pdf",
+            "refined_text": "\uf0b7 Return chicken to the skillet and cook until heated through. \uf0b7 Serve warm. Peking Duck",
+            "page_number": 1
+        },
+        {
+            "document": "Dinner Ideas - Mains_3.pdf",
+            "refined_text": "Quiche Lorraine Ingredients: \uf0b7 1 pie crust \uf0b7",
+            "page_number": 2
+        },
+        {
+            "document": "Dinner Ideas - Mains_3.pdf",
+            "refined_text": "Roast Beef Ingredients: \uf0b7 1 beef roast (3-4 pounds) \uf0b7",
+            "page_number": 3
+        },
+        {
+            "document": "Dinner Ideas - Mains_3.pdf",
+            "refined_text": "Baked Ziti Ingredients: \uf0b7 1 pound ziti pasta \uf0b7",
+            "page_number": 4
+        },
+        {
+            "document": "Dinner Ideas - Mains_3.pdf",
+            "refined_text": "\uf0b7 In a bowl, mix yogurt, lemon juice, garlic, ginger, garam masala, turmeric, and cumin. Marinate chicken in the mixture for at least 1 hour. \uf0b7 In a skillet, melt butter over medium heat.",
+            "page_number": 5
+        },
+        {
+            "document": "Dinner Ideas - Mains_3.pdf",
+            "refined_text": "\uf0b7 Cook gnocchi according to package instructions, then drain. \uf0b7 In a large skillet, melt butter over medium heat. \uf0b7",
+            "page_number": 6
+        },
+        {
+            "document": "Dinner Ideas - Mains_3.pdf",
+            "refined_text": "\uf0b7 Chopped parsley for garnish \uf0b7 Cooked couscous for serving Instructions:",
+            "page_number": 7
+        },
+        {
+            "document": "Dinner Ideas - Mains_3.pdf",
+            "refined_text": "\uf0b7 1 cup barbecue sauce \uf0b7 1/2 cup chicken broth \uf0b7",
+            "page_number": 8
+        },
+        {
+            "document": "Dinner Ideas - Mains_3.pdf",
+            "refined_text": "\uf0b7 1 bell pepper, diced \uf0b7 1 cup spinach, chopped \uf0b7",
+            "page_number": 9
+        },
+        {
+            "document": "Dinner Ideas - Sides_1.pdf",
+            "refined_text": "Acaraj\u00e9 \uf0b7 Ingredients: o 2 cups black-eyed peas o 1 small onion",
+            "page_number": 2
+        },
+        {
+            "document": "Dinner Ideas - Sides_1.pdf",
+            "refined_text": "o Add potatoes and cauliflower, stir to coat with spices. o Cover and cook until vegetables are tender, stirring occasionally. o Add salt to taste and serve. Albondigas \uf0b7",
+            "page_number": 3
+        },
+        {
+            "document": "Dinner Ideas - Sides_1.pdf",
+            "refined_text": "\uf0b7 Instructions: o Form risotto into balls and stuff with a cube of mozzarella. o Dredge balls in flour, dip in beaten eggs, and coat with breadcrumbs. o Fry in hot oil until golden.",
+            "page_number": 4
+        },
+        {
+            "document": "Dinner Ideas - Sides_1.pdf",
+            "refined_text": "o Oil for frying \uf0b7 Instructions: o Mix grated cassava with coconut milk and salt. o Form mixture into flat cakes.",
+            "page_number": 5
+        },
+        {
+            "document": "Dinner Ideas - Sides_1.pdf",
+            "refined_text": "o 1 teaspoon salt o Oil for frying \uf0b7 Instructions: o Mix rice flour, coconut milk, water, turmeric, and salt to form a batter.",
+            "page_number": 6
+        },
+        {
+            "document": "Dinner Ideas - Sides_1.pdf",
+            "refined_text": "o 1 pound okra o 1 small onion o 2 cloves garlic o 1 teaspoon cumin o 1 teaspoon coriander",
+            "page_number": 7
+        },
+        {
+            "document": "Dinner Ideas - Sides_1.pdf",
+            "refined_text": "o 2 cloves garlic o 2 tablespoons soy sauce o 1 tablespoon sesame oil \uf0b7 Instructions:",
+            "page_number": 8
+        },
+        {
+            "document": "Dinner Ideas - Sides_1.pdf",
+            "refined_text": "o Add diced tomatoes, fish stock, wine, saffron, thyme, salt, and pepper, simmer for 20 minutes. o Add fish fillets, shrimp, and mussels, cook until seafood is done. o Serve hot with crusty bread. Bratkartoffeln (Fried Potatoes)",
+            "page_number": 9
+        },
+        {
+            "document": "Dinner Ideas - Sides_1.pdf",
+            "refined_text": "o 1 small onion o 2 cloves garlic o 1/4 cup parsley o 1 teaspoon cumin o 1 teaspoon cinnamon",
+            "page_number": 10
+        },
+        {
+            "document": "Dinner Ideas - Sides_1.pdf",
+            "refined_text": "o Pour in chicken broth and bring to a boil. o Reduce heat, cover, and simmer until bulgur is tender. o Stir in chopped parsley and salt. o Serve warm. Ca Tim Nuong (Grilled Eggplant)",
+            "page_number": 11
+        },
+        {
+            "document": "Dinner Ideas - Sides_1.pdf",
+            "refined_text": "o 2-3 Thai chilies o 2 tablespoons fish sauce o 2 tablespoons tamarind paste o 1 tablespoon sugar o 1/4 cup cilantro",
+            "page_number": 12
+        },
+        {
+            "document": "Dinner Ideas - Sides_1.pdf",
+            "refined_text": "o 1 small onion o 2 tomatoes o 1 jalape\u00f1o o 1/4 cup cilantro o 1 teaspoon salt",
+            "page_number": 13
+        },
+        {
+            "document": "Dinner Ideas - Sides_1.pdf",
+            "refined_text": "\uf0b7 Instructions: o Saut\u00e9 diced onion, minced garlic, and sliced bell peppers in olive oil until softened. o Add diced tomatoes, cumin, paprika, and salt, simmer for 10 minutes.",
+            "page_number": 14
+        },
+        {
+            "document": "Dinner Ideas - Sides_1.pdf",
+            "refined_text": "o 2 tablespoons honey o 1 tablespoon rice wine o 1 teaspoon five-spice powder o 1 teaspoon garlic powder \uf0b7",
+            "page_number": 15
+        },
+        {
+            "document": "Dinner Ideas - Sides_2.pdf",
+            "refined_text": "Churros \uf0b7 Ingredients: o 1 cup water o 1/2 cup butter",
+            "page_number": 1
+        },
+        {
+            "document": "Dinner Ideas - Sides_2.pdf",
+            "refined_text": "Cornbread \uf0b7 Ingredients: o 1 cup cornmeal o 1 cup flour",
+            "page_number": 2
+        },
+        {
+            "document": "Dinner Ideas - Sides_2.pdf",
+            "refined_text": "o 2 tablespoons butter \uf0b7 Instructions: o Preheat oven to 400\u00b0F (200\u00b0C). o Spread b\u00e9chamel sauce on 4 slices of bread.",
+            "page_number": 3
+        },
+        {
+            "document": "Dinner Ideas - Sides_2.pdf",
+            "refined_text": "o Rinse lentils and cook in water until tender. o Heat oil in a pan and saut\u00e9 diced onion and minced garlic until translucent. o Add cumin, turmeric, coriander, and garam masala, cook for 1 minute. o Add cooked lentils and stir to combine. o Simmer for 10 minutes, stirring occasionally.",
+            "page_number": 4
+        },
+        {
+            "document": "Dinner Ideas - Sides_2.pdf",
+            "refined_text": "o 1/2 cup chopped cabbage o 1/4 cup chopped green onions o 2 cloves garlic o 1 tablespoon soy sauce o 1 teaspoon sesame oil",
+            "page_number": 5
+        },
+        {
+            "document": "Dinner Ideas - Sides_2.pdf",
+            "refined_text": "Egg Rolls \uf0b7 Ingredients: o 1 package egg roll wrappers o 1 cup shredded cabbage",
+            "page_number": 6
+        },
+        {
+            "document": "Dinner Ideas - Sides_2.pdf",
+            "refined_text": "o 1 teaspoon paprika o 1 teaspoon salt o Oil for frying \uf0b7 Instructions:",
+            "page_number": 7
+        },
+        {
+            "document": "Dinner Ideas - Sides_2.pdf",
+            "refined_text": "o Drain on paper towels and serve. Farofa \uf0b7 Ingredients: o 2 cups cassava flour",
+            "page_number": 8
+        },
+        {
+            "document": "Dinner Ideas - Sides_2.pdf",
+            "refined_text": "\uf0b7 Instructions: o Rinse split peas and cook in water until tender. o Saut\u00e9 diced onion and minced garlic in olive oil until softened. o Blend cooked peas with onion, garlic, lemon juice, and salt until smooth.",
+            "page_number": 9
+        },
+        {
+            "document": "Dinner Ideas - Sides_2.pdf",
+            "refined_text": "o 1/4 cup olive oil o Rosemary o Sea salt \uf0b7 Instructions:",
+            "page_number": 10
+        },
+        {
+            "document": "Dinner Ideas - Sides_2.pdf",
+            "refined_text": "o 1/2 cup diced carrots o 2 eggs o 2 tablespoons soy sauce o 1 tablespoon sesame oil o 1/4 cup chopped green onions",
+            "page_number": 11
+        },
+        {
+            "document": "Dinner Ideas - Sides_2.pdf",
+            "refined_text": "o Preheat oven to 375\u00b0F (190\u00b0C). o Slice baguette in half lengthwise. o Mix softened butter with minced garlic, chopped parsley, and salt. o Spread mixture on bread. o Bake for 10-15 minutes until golden.",
+            "page_number": 12
+        },
+        {
+            "document": "Dinner Ideas - Sides_2.pdf",
+            "refined_text": "o 1 package rice paper wrappers o 1/2 pound shrimp o 1/2 cup rice vermicelli o 1/2 cup lettuce o 1/4 cup mint",
+            "page_number": 13
+        },
+        {
+            "document": "Dinner Ideas - Sides_2.pdf",
+            "refined_text": "o Layer potatoes in the dish, seasoning with salt and pepper. o Mix cream, milk, and minced garlic, pour over potatoes. o Sprinkle with grated Gruy\u00e8re cheese. o Bake for 45 minutes until golden and bubbly. o Serve warm.",
+            "page_number": 14
+        },
+        {
+            "document": "Dinner Ideas - Sides_2.pdf",
+            "refined_text": "o 1 small onion o 2 tomatoes o 1 teaspoon salt o 1 tablespoon chopped cilantro o 1 teaspoon minced garlic",
+            "page_number": 15
+        },
+        {
+            "document": "Dinner Ideas - Sides_3.pdf",
+            "refined_text": "o 2 cloves garlic o 4 tomatoes o 4 cups vegetable broth o 1 teaspoon cumin o 1 teaspoon coriander",
+            "page_number": 1
+        },
+        {
+            "document": "Dinner Ideas - Sides_3.pdf",
+            "refined_text": "Hummus \uf0b7 Ingredients: o 1 can chickpeas o 1/4 cup tahini",
+            "page_number": 2
+        },
+        {
+            "document": "Dinner Ideas - Sides_3.pdf",
+            "refined_text": "o 1/4 cup olive oil \uf0b7 Instructions: o Toss vegetables with minced garlic, jerk seasoning, and olive oil. o Roast at 400\u00b0F (200\u00b0C) until tender.",
+            "page_number": 3
+        },
+        {
+            "document": "Dinner Ideas - Sides_3.pdf",
+            "refined_text": "Kachumbari \uf0b7 Ingredients: o 4 tomatoes o 1 small onion",
+            "page_number": 4
+        },
+        {
+            "document": "Dinner Ideas - Sides_3.pdf",
+            "refined_text": "\uf0b7 Instructions: o Boil potatoes until tender, then dice. o Cook diced bacon until crispy, then remove and set aside. o Saut\u00e9 diced onion in bacon fat until softened.",
+            "page_number": 5
+        },
+        {
+            "document": "Dinner Ideas - Sides_3.pdf",
+            "refined_text": "Kimchi \uf0b7 Ingredients: o 1 napa cabbage o 1/4 cup sea salt",
+            "page_number": 6
+        },
+        {
+            "document": "Dinner Ideas - Sides_3.pdf",
+            "refined_text": "Larb \uf0b7 Ingredients: o 1/2 pound ground chicken o 1 small onion",
+            "page_number": 7
+        },
+        {
+            "document": "Dinner Ideas - Sides_3.pdf",
+            "refined_text": "o 1 teaspoon paprika o 1 teaspoon salt o 1/4 cup cilantro \uf0b7 Instructions:",
+            "page_number": 8
+        },
+        {
+            "document": "Dinner Ideas - Sides_3.pdf",
+            "refined_text": "Mandazi \uf0b7 Ingredients: o 2 cups flour o 1/4 cup sugar",
+            "page_number": 9
+        },
+        {
+            "document": "Dinner Ideas - Sides_3.pdf",
+            "refined_text": "o Mix coconut milk with cooked rice and let sit for 10 minutes. o Serve rice with sliced mangoes. Mapo Tofu \uf0b7 Ingredients:",
+            "page_number": 10
+        },
+        {
+            "document": "Dinner Ideas - Sides_3.pdf",
+            "refined_text": "o 1 can diced tomatoes o 4 cups vegetable broth o 1 can cannellini beans o 1 cup pasta o 1/4 cup basil",
+            "page_number": 11
+        },
+        {
+            "document": "Dinner Ideas - Sides_3.pdf",
+            "refined_text": "Msemen \uf0b7 Ingredients: o 2 cups flour o 1 cup semolina",
+            "page_number": 12
+        },
+        {
+            "document": "Dinner Ideas - Sides_3.pdf",
+            "refined_text": "o Blend mashed eggplant, tahini, lemon juice, minced garlic, and salt in a food processor. o Slowly add olive oil while blending until smooth. o Serve with a drizzle of olive oil. Naan",
+            "page_number": 13
+        },
+        {
+            "document": "Dinner Ideas - Sides_3.pdf",
+            "refined_text": "o 2 cloves garlic o 1-2 Thai chilies o 1/4 cup water \uf0b7 Instructions:",
+            "page_number": 14
+        },
+        {
+            "document": "Dinner Ideas - Sides_3.pdf",
+            "refined_text": "o Remove from heat and stir in tapioca flour until smooth. o Let cool slightly, then mix in grated cheese and beaten eggs. o Form dough into balls and place on a baking sheet. o Bake for 20-25 minutes until golden. o Serve warm.",
+            "page_number": 15
+        },
+        {
+            "document": "Dinner Ideas - Sides_4.pdf",
+            "refined_text": "o Scramble eggs in the same pan. o Add noodles, fish sauce, tamarind paste, sugar, and lime juice, stir to combine. o Add bean sprouts, cooked shrimp, and chopped green onions. o Garnish with crushed peanuts and serve. Pajeon (Pancakes)",
+            "page_number": 1
+        },
+        {
+            "document": "Dinner Ideas - Sides_4.pdf",
+            "refined_text": "o 1 teaspoon salt o Skewers \uf0b7 Instructions: o Cut paneer into cubes.",
+            "page_number": 2
+        },
+        {
+            "document": "Dinner Ideas - Sides_4.pdf",
+            "refined_text": "o 1/2 cup tomato sauce o 1 teaspoon paprika o 1/2 teaspoon cayenne pepper o 1/2 teaspoon salt o 1/4 cup mayonnaise",
+            "page_number": 3
+        },
+        {
+            "document": "Dinner Ideas - Sides_4.pdf",
+            "refined_text": "o 4 tomatoes o 1 small onion o 1 jalape\u00f1o o 1/4 cup cilantro o 1 lime",
+            "page_number": 4
+        },
+        {
+            "document": "Dinner Ideas - Sides_4.pdf",
+            "refined_text": "o Stir in butter and Parmesan cheese. o Serve warm. Potato Salad \uf0b7 Ingredients:",
+            "page_number": 5
+        },
+        {
+            "document": "Dinner Ideas - Sides_4.pdf",
+            "refined_text": "o 1 carrot o 1/2 cup peas o 1 teaspoon cumin o 1 teaspoon coriander o 1 teaspoon turmeric",
+            "page_number": 6
+        },
+        {
+            "document": "Dinner Ideas - Sides_4.pdf",
+            "refined_text": "o Preheat oven to 375\u00b0F (190\u00b0C). o Cook bacon until crispy, then crumble. o Saut\u00e9 diced onion in bacon fat until softened. o Place pie crust in a pie dish and sprinkle with bacon, onion, and cheese. o Beat eggs with cream, salt, and pepper, then pour over the filling.",
+            "page_number": 7
+        },
+        {
+            "document": "Dinner Ideas - Sides_4.pdf",
+            "refined_text": "o 1 teaspoon rosemary o 1/4 cup olive oil o 1 teaspoon salt \uf0b7 Instructions:",
+            "page_number": 8
+        },
+        {
+            "document": "Dinner Ideas - Sides_4.pdf",
+            "refined_text": "o 1 teaspoon salt o 1/4 cup olive oil o 4 cups chicken broth o 1/4 cup lentils o 1/4 cup cilantro",
+            "page_number": 9
+        },
+        {
+            "document": "Dinner Ideas - Sides_4.pdf",
+            "refined_text": "o Chill until set. o Serve with bread. Risotto \uf0b7 Ingredients:",
+            "page_number": 10
+        },
+        {
+            "document": "Dinner Ideas - Sides_4.pdf",
+            "refined_text": "o 1/4 cup vinegar o 1/4 cup sugar o 1/4 cup water o 1 teaspoon salt o 1/2 teaspoon pepper",
+            "page_number": 11
+        },
+        {
+            "document": "Dinner Ideas - Sides_4.pdf",
+            "refined_text": "Salpic\u00e3o \uf0b7 Ingredients: o 2 cups shredded chicken o 1 small onion",
+            "page_number": 12
+        },
+        {
+            "document": "Dinner Ideas - Sides_4.pdf",
+            "refined_text": "o 1 teaspoon garam masala o 1 teaspoon salt o Oil for frying \uf0b7 Instructions:",
+            "page_number": 13
+        },
+        {
+            "document": "Dinner Ideas - Sides_4.pdf",
+            "refined_text": "o 4 tomatoes o 1 teaspoon cumin o 1 teaspoon paprika o 1 teaspoon salt o 4 eggs",
+            "page_number": 14
+        },
+        {
+            "document": "Dinner Ideas - Sides_4.pdf",
+            "refined_text": "o Serve as a dip or side dish. Som Tum (Green Papaya Salad) \uf0b7 Ingredients: o 1 green papaya",
+            "page_number": 15
+        },
+        {
+            "document": "Lunch Ideas.pdf",
+            "refined_text": "Chicken Caesar Wrap Ingredients: \u2022 1 whole wheat tortilla \u2022",
+            "page_number": 2
+        },
+        {
+            "document": "Lunch Ideas.pdf",
+            "refined_text": "Greek Yogurt Parfait Ingredients: \u2022 1 cup Greek yogurt \u2022",
+            "page_number": 3
+        },
+        {
+            "document": "Lunch Ideas.pdf",
+            "refined_text": "\u2022 Serve on lettuce leaves or whole grain bread. Caprese Sandwich Ingredients: \u2022",
+            "page_number": 4
+        },
+        {
+            "document": "Lunch Ideas.pdf",
+            "refined_text": "\u2022 1/4 cup shredded carrots \u2022 1/4 cup baby spinach Instructions:",
+            "page_number": 5
+        },
+        {
+            "document": "Lunch Ideas.pdf",
+            "refined_text": "\u2022 1 cup cooked chicken breast, diced \u2022 1/2 avocado, diced \u2022",
+            "page_number": 6
+        },
+        {
+            "document": "Lunch Ideas.pdf",
+            "refined_text": "Chicken and Veggie Stir-Fry Ingredients: \u2022 1 cup cooked chicken breast, sliced \u2022",
+            "page_number": 7
+        },
+        {
+            "document": "Lunch Ideas.pdf",
+            "refined_text": "\u2022 1/4 cup red onion, finely chopped \u2022 1/4 cup cilantro, chopped \u2022",
+            "page_number": 8
+        },
+        {
+            "document": "Lunch Ideas.pdf",
+            "refined_text": "Chickpea and Avocado Sandwich Ingredients: \u2022 2 slices whole grain bread \u2022",
+            "page_number": 9
+        },
+        {
+            "document": "Lunch Ideas.pdf",
+            "refined_text": "\u2022 Lay the tortilla flat and spread the cranberry sauce evenly. \u2022 Add the turkey, spinach, and carrots. \u2022",
+            "page_number": 10
+        },
+        {
+            "document": "Lunch Ideas.pdf",
+            "refined_text": "\u2022 1/4 cup red onion, finely chopped \u2022 2 tablespoons olive oil \u2022",
+            "page_number": 11
+        },
+        {
+            "document": "Lunch Ideas.pdf",
+            "refined_text": "BBQ Chicken Wrap Ingredients: \u2022 1 whole wheat tortilla \u2022",
+            "page_number": 12
+        },
+        {
+            "document": "Lunch Ideas.pdf",
+            "refined_text": "\u2022 Spread hummus on one slice of bread. \u2022 Layer the roasted eggplant, spinach, and roasted red peppers on top. \u2022",
+            "page_number": 13
+        },
+        {
+            "document": "Lunch Ideas.pdf",
+            "refined_text": "\u2022 1/4 cup spinach, chopped \u2022 1/4 cup shredded carrots \u2022",
+            "page_number": 14
+        },
+        {
+            "document": "Lunch Ideas.pdf",
+            "refined_text": "Chicken and Avocado Wrap Ingredients: \u2022 1 whole wheat tortilla \u2022",
+            "page_number": 15
+        }
+    ]
+}
