@@ -46,12 +46,13 @@ Works in any Docker-supported environment.
 Build
 
 docker build --platform linux/amd64 -t round1b_solution:pdf-summarizer .
+
 docker run --rm -v ${PWD}/input:/app/input -v ${PWD}/output:/app/output --network none round1b_solution:pdf-summarizer
 
 Ensure input PDFs are placed under input/{collection_name}/ folders.
 Output JSON will be generated under output/{collection_name}/output.json.
 
-****🧰 Tech Stack**
+**🧰 Tech Stack**
 Python 3.10+
 
 PyMuPDF (fitz) — Fast and accurate PDF parsing
