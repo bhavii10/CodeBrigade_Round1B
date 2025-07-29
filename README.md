@@ -1,7 +1,7 @@
-🧠 Adobe India Hackathon 2025 — Round 1B: Summarize & Structure Multiple PDFs
+**🧠 Adobe India Hackathon 2025 — Round 1B: Summarize & Structure Multiple PDFs**
 This solution recursively processes all PDFs in subfolders under /app/input, extracts structured content, and generates output.json per subfolder following a specified schema.
 
-🚀 Problem Statement
+**🚀 Problem Statement**
 Build a PDF intelligence engine that:
 
 ✅ Accepts multiple folders of PDFs
@@ -12,14 +12,14 @@ Build a PDF intelligence engine that:
 
 ✅ Works fully offline, without persona.json or hardcoded rules
 
-✅ Features
-📁 Recursive Input Support
+**✅ Features**
+**📁 Recursive Input Support**
 Scans /app/input and its subfolders for PDFs.
 
-📄 Per-folder Output
+**📄 Per-folder Output**
 Generates /app/output/{Folder}/output.json for each input collection.
 
-📦 Structured Output Schema
+**📦 Structured Output Schema**
 Includes:
 
 metadata: Input filenames, persona (auto-detected or passed), job, and processing timestamp
@@ -44,19 +44,14 @@ Consistent behavior across runs and environments
 Works in any Docker-supported environment.
 
 Build
-bash
-Copy
-Edit
+
 docker build --platform linux/amd64 -t round1b_solution:pdf-summarizer .
-Run
-bash
-Copy
-Edit
 docker run --rm -v ${PWD}/input:/app/input -v ${PWD}/output:/app/output --network none round1b_solution:pdf-summarizer
+
 Ensure input PDFs are placed under input/{collection_name}/ folders.
 Output JSON will be generated under output/{collection_name}/output.json.
 
-🧰 Tech Stack
+****🧰 Tech Stack**
 Python 3.10+
 
 PyMuPDF (fitz) — Fast and accurate PDF parsing
@@ -66,3 +61,4 @@ SentenceTransformers — For semantic ranking
 JSON — For structured output
 
 Docker — Containerized execution
+******
